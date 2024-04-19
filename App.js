@@ -1,20 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Project1 from './Project1';
+import Project2 from './Project2';
+import Project3 from './Project3';
+import Project4 from './Project4';
+import Project5 from './Project5';
+import Project6 from './Project6';
+import Project7 from './Project7';
+import Project8 from './Project8';
+import Caculator from './Caculator';
 
-export default function App() {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <Caculator />
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
